@@ -1,0 +1,8 @@
+### Generate token
+POST http://localhost:7080/realms/codeflix-nestjs-catalog/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+username=codeflix-user@email.com
+&password=admin
+&grant_type=password
+&client_id=codeflix-admin-frontend
